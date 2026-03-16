@@ -69,7 +69,7 @@ class HomeContent extends StatelessWidget {
               SizedBox(height: BlaSpacings.m),
 
               // 3 - THE HISTORY
-              _buildHistory(vm),
+              _buildHistory(),
             ],
           ),
         ),
@@ -77,7 +77,7 @@ class HomeContent extends StatelessWidget {
     );
   }
 
-  Widget _buildHistory(HomeViewModel vm) {
+  Widget _buildHistory() {
     // Reverse the history of preferences
     vm.loadRidePrefHistory();
     final history = vm.prefHistory;
