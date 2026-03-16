@@ -5,7 +5,7 @@ import '../../../services/ride_prefs_service.dart';
 import '../../../services/rides_service.dart';
 import '../../../utils/animations_util.dart' show AnimationUtils;
 import '../../theme/theme.dart';
-import 'widgets/ride_preference_modal.dart';
+import '../../widgets/pickers/ride_pref/ride_preference_modal.dart';
 import 'widgets/rides_selection_header.dart';
 import 'widgets/rides_selection_tile.dart';
 

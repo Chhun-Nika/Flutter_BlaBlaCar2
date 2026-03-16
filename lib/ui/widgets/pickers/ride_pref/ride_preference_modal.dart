@@ -1,9 +1,9 @@
-import 'package:blabla/ui/widgets/pickers/bla_ride_preference_picker.dart';
+import 'package:blabla/ui/widgets/pickers/ride_pref/bla_ride_preference_picker.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../model/ride_pref/ride_pref.dart';
 import '../../../theme/theme.dart';
-import '../../../widgets/buttons/bla_icon_button.dart';
+import '../../buttons/bla_icon_button.dart';
 
 
 //
