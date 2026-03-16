@@ -22,4 +22,6 @@ class RidePrefStates extends ChangeNotifier {
       notifyListeners();
     }
   }
+
+  RidePreference? get selectedPreference => _selectedPreference;
 }
